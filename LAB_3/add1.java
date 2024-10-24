@@ -1,0 +1,35 @@
+public class CombinationGenerator {
+    public static void main(String[] args) {
+        int[] digits = {1, 2, 3, 4};
+
+        
+        System.out.println("All combinations with duplication allowed:");
+        for (int i = 0; i < digits.length; i++) {
+            for (int j = 0; j < digits.length; j++) {
+                for (int k = 0; k < digits.length; k++) {
+                    for (int l = 0; l < digits.length; l++) {
+                        System.out.println("" + digits[i] + digits[j] + digits[k] + digits[l]);
+                    }
+                }
+            }
+        }
+
+        
+        System.out.println("\nAll combinations without duplication allowed:");
+        for (int i = 0; i < digits.length; i++) {
+            for (int j = 0; j < digits.length; j++) {
+                if (j != i) {
+                    for (int k = 0; k < digits.length; k++) {
+                        if (k != i && k != j) {
+                            for (int l = 0; l < digits.length; l++) {
+                                if (l != i && l != j && l != k) {
+                                    System.out.println("" + digits[i] + digits[j] + digits[k] + digits[l]);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
