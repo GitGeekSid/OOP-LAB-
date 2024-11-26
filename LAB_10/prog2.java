@@ -1,3 +1,5 @@
+//Q2. Write a program that handles ArrayOverflowException. [ Hint: Consider the array size]
+
 import java.util.Scanner;
 
 public class prog2//ArrayOverflowHandling {
