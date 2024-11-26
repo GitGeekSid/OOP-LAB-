@@ -1,3 +1,5 @@
+//Q5. Write a program for validating matrix. [Hint: Square matrix ] 
+
 import java.util.Scanner;
 
 public class prog5 {//MatrixValidation {
