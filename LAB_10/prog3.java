@@ -1,3 +1,6 @@
+//Q3. Write a program to enter student’s Name, Roll Number and Marks in three subjects and find the percentage, 
+//    grade and handle NumberFormatException.
+
 import java.util.Scanner;
 
 public class prog3 {//StudentDetails {
