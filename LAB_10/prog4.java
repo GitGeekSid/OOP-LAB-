@@ -1,3 +1,5 @@
+//Q4. Create a user defined exception class which displays error message.
+
 // User-defined exception class
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {
