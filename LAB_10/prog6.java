@@ -1,3 +1,5 @@
+//Q6. Write a program for checking the negative root of a number. [Hint: Input negative number
+
 import java.util.Scanner;
 
 public class prog6 { //NegativeRootCheck {
